@@ -48,3 +48,7 @@
 ## 五、恢复成原生 QQ
 
 点界面“恢复原生 QQ”，或 `--restore`。会删除 `app.asar` 并把 `app.asar.bak*` 留着（不删，出问题可人工还原）。宿主目录会保留，不影响原生启动。
+
+# 六、思路来源
+
+https://github.com/Error1015/LiteLoaderQQNT-AppAsar-Builder
