@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "installer.py", line 766, in <module>
+    main()
+    ~~~~^^
+  File "installer.py", line 762, in main
+    run_gui()
+    ~~~~~~~^^
+  File "installer.py", line 562, in run_gui
+    import tkinter as tk
+ModuleNotFoundError: No module named 'tkinter'
+[PYI-22100:ERROR] Failed to execute script 'installer' due to unhandled exception!
